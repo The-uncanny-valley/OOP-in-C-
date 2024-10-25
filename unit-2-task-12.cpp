@@ -3,8 +3,8 @@
 using namespace std;
 
 int main() {
-    int pounds;
-    float decimalPenny;
+    int pounds; // фунты
+    float decimalPenny; // пенс
     int shilling, penny;
     cin >> pounds >> decimalPenny;
     shilling = static_cast<int>(decimalPenny * 20);
